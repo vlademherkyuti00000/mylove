@@ -1,0 +1,58 @@
+body {
+    background-image: url('images/flowers.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.about-us {
+    margin: 30px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: pink;
+    background-image: url('images/gwapa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2%;
+    border-radius: 80px;
+    width: auto;
+}
+
+.person img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.person h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.person p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.house {
+    color: white;
+    text-decoration: none;
+}
